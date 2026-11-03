@@ -6,9 +6,7 @@ services:
       args:
         VITE_API_URL: ${CLOUD_BACKEND_URL:?CLOUD_BACKEND_URL is required}
     ports:
-      - "4000:80"
-    volumes:
-      - ../frontend/etc/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - "4000:3000"
     restart: unless-stopped
   database:
     # PostgreSQL 13 EOL: мажорный апгрейд требует dump/restore (см. README).
