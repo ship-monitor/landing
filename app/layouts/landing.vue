@@ -44,7 +44,7 @@ const scrollToSection = (anchor: string) => {
         <div class="flex justify-between items-center py-3 sm:py-4">
           <!-- Логотип -->
           <div class="flex items-center">
-            <div class="w-24 h-24 sm:w-32 sm:h-12 shrink-0">
+            <div class=" sm:w-32 sm:h-12 shrink-0">
               <img
                 :src="BIG_LOGO"
                 alt="ШиП-монитор"

@@ -182,7 +182,7 @@
           </div>
           <a
             href="#lead-form"
-            class="mt-10 inline-flex min-h-13 items-center justify-center rounded-full border border-moonless-night/15 px-6 font-semibold transition hover:-translate-y-0.5 hover:border-moonless-night"
+            class="mt-10 inline-flex min-h-13 bg-electric-blue items-center justify-center rounded-full border border-moonless-night/15 px-6 font-semibold transition hover:-translate-y-0.5 hover:border-moonless-night text-white"
           >
             {{ $t("pricing.connect") }}
           </a>
@@ -214,7 +214,7 @@
           </div>
           <a
             href="#lead-form"
-            class="mt-10 inline-flex min-h-13 items-center justify-center rounded-full border border-moonless-night/15 px-6 font-semibold transition hover:-translate-y-0.5 hover:border-moonless-night"
+            class="mt-10 inline-flex min-h-13 bg-electric-blue items-center justify-center rounded-full border border-moonless-night/15 px-6 font-semibold transition hover:-translate-y-0.5 hover:border-moonless-night text-white"
           >
             {{ $t("pricing.discuss") }}
           </a>
