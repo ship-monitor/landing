@@ -126,14 +126,15 @@ export const messages = {
       upTo32: "До 32",
       backup: "Резерв",
       backupTime: "До 1 часа",
-      sensorPrice: "от 10 000 ₽",
-      hubPrice: "от 15 000 ₽",
+      sensorPrice: "Цены появятся позже",
+      hubPrice: "Цены появятся позже",
       request: "Запросить",
     },
     pricing: {
       heading: "Тарифы",
       headingAlt: "прозрачные условия",
-      description: "Начните с базового мониторинга и расширяйте систему по мере роста",
+      description:
+        "Начните с базового мониторинга и расширяйте систему по мере роста",
       standardSubtitle: "Для малого и среднего бизнеса",
       standardTitle: "Стандартный",
       standardPrice: "1 500 ₽",
@@ -326,7 +327,8 @@ export const messages = {
     pricing: {
       heading: "Pricing",
       headingAlt: "transparent terms",
-      description: "Start with basic monitoring and scale the system as you grow",
+      description:
+        "Start with basic monitoring and scale the system as you grow",
       standardSubtitle: "For small and medium businesses",
       standardTitle: "Standard",
       standardPrice: "1 500 ₽",
