@@ -1,10 +1,12 @@
 services:
   site:
-    build: .
-    args:
-      VITE_API_URL: ${CLOUD_BACKEND_URL:?CLOUD_BACKEND_URL is required}
-      VITE_PLAUSIBLE_URL: ${PLAUSIBLE_BASE_URL:-}
-      VITE_PLAUSIBLE_DOMAIN: ${PLAUSIBLE_TRACKING_DOMAIN:-}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: ${CLOUD_BACKEND_URL:?CLOUD_BACKEND_URL is required}
+        VITE_PLAUSIBLE_URL: ${PLAUSIBLE_BASE_URL:-}
+        VITE_PLAUSIBLE_DOMAIN: ${PLAUSIBLE_TRACKING_DOMAIN:-}
     ports:
       - "3000:80"
     volumes:
